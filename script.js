@@ -7,7 +7,7 @@ function showPage(pageId) {
 
 function checkPassword() {
     const input = document.getElementById('pwInput').value;
-    if (input === "1") {
+    if (input === "fier") {
         showPage('page4');
         document.getElementById('pwInput').value = ""; 
     } else {
