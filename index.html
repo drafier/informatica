@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav>
+        <button onclick="showPage('page1')">page 1</button>
+        <button onclick="showPage('page2')">page 2</button>
+        <button onclick="showPage('page3')">page 3</button>
+    </nav>
+
+    page 1
+    <div id="page1" class="page active">
+        <div class="hero">
+            <h1>Wie ben ik?</h1>
+            <p>
+               Ik ben Ard. Ik ben 16 jaar en ik zit op het GSR in vwo 4. Ik heb een hond die Fier heet en ik hou van roeien, buiten zijn en knutselen met elektronica.
+            </p>
+        </div>
+
+        <div class="bottom-area-left">
+            <input type="password" id="pwInput" placeholder="...">
+            <button class="btn-verify" onclick="checkPassword()">Verifieer</button>
+        </div>
+
+    </div>
+
+   page 2
+    <div id="page2" class="page">  
+        <div class="photo"> <h2>
+            <div class="card">
+                <img src="image5.jpeg" >
+                <p>Dit is mijn hond Fier. Hij is een labradoodle. Hij is nu bijna 4 jaar en mijn beste viervoetige vriend.</p>
+            </div></h2> <h2>
+            <div class="card">
+            <img src="image4.jpeg">
+                <p>Dit is een foto van mij afgelopen zomer op het water. Ik hou van watersporten, zoals hier te zien is: waterskiën, maar ook zeilen, surfen en roeien. Ik zit ook op roeien en ik doe het ongeveer 4 keer per week.</p>
+            </div> </h2>
+        </div>
+    </div>
+
+    page 3
+    <div id="page3" class="page">
+        <div class="photo"> <h2>
+            <div class="card">
+                <img src="image1.jpeg" >
+                <p>Ik hou van wintersport. Ik ski zelf, maar wil ook graag leren snowboarden. Dit was afgelopen winter in Italië.</p>
+            </div></h2><h2>
+            <div class="card">
+                <img src="image2.jpeg" >
+                <p>Dit is gewoon een grappige foto die mijn neef heeft gemaakt toen we vorig jaar samen in Normandië waren.</p>
+            </div></h2>
+        </div>
+    </div>
+
+    page 4
+    <div id="page4" class="page">
+        <h1>Als je dit leest, ben je beter dan 90% van de mensen.</h1>
+        <div class="diary-text">
+            Aan mijn wachtwoord is wel te zien dat ik mijn hond heel leuk vind. Heb je je al afgevraagd waarom mijn achtergrond steeds groen is? Nee? Dan nu wel. Het is groen omdat ik van de natuur hou en daar komt veel groen in voor. Ook vind ik groen een rustgevende kleur. 
+        </div>
+        <button class="btn-verify" onclick="showPage('page1')">Sluiten</button>
+    </div>
+
+    <script src="script.js"></script> 
+</body>
+</html>
+
